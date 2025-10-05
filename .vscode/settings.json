@@ -1,0 +1,50 @@
+{
+    "python.defaultInterpreterPath": "/home/sid/miniconda3/envs/llm312/bin/python",
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "cSpell.words": [
+        "dtype",
+        "dunder",
+        "huggingface",
+        "renormalize",
+        "torchjpeg",
+        "torchmetrics",
+        "unnormalized",
+        "wandb"
+    ],
+    "files.trimTrailingWhitespace": true,
+    "python.analysis.autoImportCompletions": true,
+    "testing.defaultGutterClickAction": "debug",
+    "pylint.importStrategy": "fromEnvironment",
+    "editor.formatOnSave": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        }
+    },
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "notebook.source.fixAll": "explicit",
+        "notebook.source.organizeImports": "explicit"
+    },
+    "notebook.formatOnCellExecution": true,
+    "python.testing.pytestArgs": [
+        "tests",
+        "--no-cov",
+    ],
+    "autoDocstring.docstringFormat": "google-notypes",
+    "makefile.configureOnOpen": false,
+    "editor.rulers": [
+        {
+            "column": 140,
+            "lineStyle": "dotted"
+        }
+    ],
+    "editor.wordWrapColumn": 140,
+    "comments.visible": true,
+}
